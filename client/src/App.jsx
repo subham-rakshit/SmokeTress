@@ -40,6 +40,7 @@ function App() {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({ userDetails }),
+          credentials: "include",
         };
         const res = await fetch(api, options);
         const data = await res.json();
