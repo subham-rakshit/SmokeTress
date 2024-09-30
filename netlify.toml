@@ -1,0 +1,3 @@
+[build]
+command = "npm --prefix client run build"  # Build command for the frontend
+publish = "client/dist"                    # Publish directory
